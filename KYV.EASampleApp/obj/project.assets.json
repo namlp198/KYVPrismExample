@@ -1,0 +1,761 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6": {
+      "CommonServiceLocator/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
+        }
+      },
+      "Prism.Core/6.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Prism.dll": {}
+        }
+      },
+      "Prism.Unity/6.2.0": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "Prism.Wpf": "6.2.0",
+          "Unity": "4.0.1"
+        },
+        "compile": {
+          "lib/net45/Prism.Unity.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Prism.Unity.Wpf.dll": {}
+        }
+      },
+      "Prism.Wpf/6.2.0": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "Prism.Core": "6.2.0"
+        },
+        "compile": {
+          "lib/net45/Prism.Wpf.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Prism.Wpf.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "Unity/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Practices.Unity.Configuration.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Practices.Unity.Configuration.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.dll": {}
+        }
+      },
+      "KYV.EA.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "Prism.Core": "6.2.0",
+          "Prism.Unity": "6.2.0",
+          "Prism.Wpf": "6.2.0",
+          "Unity": "4.0.1"
+        },
+        "compile": {
+          "bin/placeholder/KYV.EA.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KYV.EA.Infrastructure.dll": {}
+        }
+      },
+      "KYV.EA.Input/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "KYV.EA.Infrastructure": "1.0.0",
+          "Prism.Core": "6.2.0",
+          "Prism.Unity": "6.2.0",
+          "Prism.Wpf": "6.2.0",
+          "Unity": "4.0.1"
+        },
+        "compile": {
+          "bin/placeholder/KYV.EA.Input.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KYV.EA.Input.dll": {}
+        }
+      },
+      "KYV.EA.Output1/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "KYV.EA.Infrastructure": "1.0.0",
+          "Prism.Core": "6.2.0",
+          "Prism.Unity": "6.2.0",
+          "Prism.Wpf": "6.2.0",
+          "Unity": "4.0.1"
+        },
+        "compile": {
+          "bin/placeholder/KYV.EA.Output1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KYV.EA.Output1.dll": {}
+        }
+      },
+      "KYV.EA.Output2/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "KYV.EA.Infrastructure": "1.0.0",
+          "Prism.Core": "6.2.0",
+          "Prism.Unity": "6.2.0",
+          "Prism.Wpf": "6.2.0",
+          "Unity": "4.0.1"
+        },
+        "compile": {
+          "bin/placeholder/KYV.EA.Output2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KYV.EA.Output2.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6/win": {
+      "CommonServiceLocator/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
+        }
+      },
+      "Prism.Core/6.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Prism.dll": {}
+        }
+      },
+      "Prism.Unity/6.2.0": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "Prism.Wpf": "6.2.0",
+          "Unity": "4.0.1"
+        },
+        "compile": {
+          "lib/net45/Prism.Unity.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Prism.Unity.Wpf.dll": {}
+        }
+      },
+      "Prism.Wpf/6.2.0": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "Prism.Core": "6.2.0"
+        },
+        "compile": {
+          "lib/net45/Prism.Wpf.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Prism.Wpf.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "Unity/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Practices.Unity.Configuration.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Practices.Unity.Configuration.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.dll": {}
+        }
+      },
+      "KYV.EA.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "Prism.Core": "6.2.0",
+          "Prism.Unity": "6.2.0",
+          "Prism.Wpf": "6.2.0",
+          "Unity": "4.0.1"
+        },
+        "compile": {
+          "bin/placeholder/KYV.EA.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KYV.EA.Infrastructure.dll": {}
+        }
+      },
+      "KYV.EA.Input/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "KYV.EA.Infrastructure": "1.0.0",
+          "Prism.Core": "6.2.0",
+          "Prism.Unity": "6.2.0",
+          "Prism.Wpf": "6.2.0",
+          "Unity": "4.0.1"
+        },
+        "compile": {
+          "bin/placeholder/KYV.EA.Input.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KYV.EA.Input.dll": {}
+        }
+      },
+      "KYV.EA.Output1/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "KYV.EA.Infrastructure": "1.0.0",
+          "Prism.Core": "6.2.0",
+          "Prism.Unity": "6.2.0",
+          "Prism.Wpf": "6.2.0",
+          "Unity": "4.0.1"
+        },
+        "compile": {
+          "bin/placeholder/KYV.EA.Output1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KYV.EA.Output1.dll": {}
+        }
+      },
+      "KYV.EA.Output2/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "KYV.EA.Infrastructure": "1.0.0",
+          "Prism.Core": "6.2.0",
+          "Prism.Unity": "6.2.0",
+          "Prism.Wpf": "6.2.0",
+          "Unity": "4.0.1"
+        },
+        "compile": {
+          "bin/placeholder/KYV.EA.Output2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KYV.EA.Output2.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6/win-x64": {
+      "CommonServiceLocator/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
+        }
+      },
+      "Prism.Core/6.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Prism.dll": {}
+        }
+      },
+      "Prism.Unity/6.2.0": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "Prism.Wpf": "6.2.0",
+          "Unity": "4.0.1"
+        },
+        "compile": {
+          "lib/net45/Prism.Unity.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Prism.Unity.Wpf.dll": {}
+        }
+      },
+      "Prism.Wpf/6.2.0": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "Prism.Core": "6.2.0"
+        },
+        "compile": {
+          "lib/net45/Prism.Wpf.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Prism.Wpf.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "Unity/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Practices.Unity.Configuration.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Practices.Unity.Configuration.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.dll": {}
+        }
+      },
+      "KYV.EA.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "Prism.Core": "6.2.0",
+          "Prism.Unity": "6.2.0",
+          "Prism.Wpf": "6.2.0",
+          "Unity": "4.0.1"
+        },
+        "compile": {
+          "bin/placeholder/KYV.EA.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KYV.EA.Infrastructure.dll": {}
+        }
+      },
+      "KYV.EA.Input/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "KYV.EA.Infrastructure": "1.0.0",
+          "Prism.Core": "6.2.0",
+          "Prism.Unity": "6.2.0",
+          "Prism.Wpf": "6.2.0",
+          "Unity": "4.0.1"
+        },
+        "compile": {
+          "bin/placeholder/KYV.EA.Input.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KYV.EA.Input.dll": {}
+        }
+      },
+      "KYV.EA.Output1/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "KYV.EA.Infrastructure": "1.0.0",
+          "Prism.Core": "6.2.0",
+          "Prism.Unity": "6.2.0",
+          "Prism.Wpf": "6.2.0",
+          "Unity": "4.0.1"
+        },
+        "compile": {
+          "bin/placeholder/KYV.EA.Output1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KYV.EA.Output1.dll": {}
+        }
+      },
+      "KYV.EA.Output2/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "KYV.EA.Infrastructure": "1.0.0",
+          "Prism.Core": "6.2.0",
+          "Prism.Unity": "6.2.0",
+          "Prism.Wpf": "6.2.0",
+          "Unity": "4.0.1"
+        },
+        "compile": {
+          "bin/placeholder/KYV.EA.Output2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KYV.EA.Output2.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6/win-x86": {
+      "CommonServiceLocator/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
+        }
+      },
+      "Prism.Core/6.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Prism.dll": {}
+        }
+      },
+      "Prism.Unity/6.2.0": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "Prism.Wpf": "6.2.0",
+          "Unity": "4.0.1"
+        },
+        "compile": {
+          "lib/net45/Prism.Unity.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Prism.Unity.Wpf.dll": {}
+        }
+      },
+      "Prism.Wpf/6.2.0": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "Prism.Core": "6.2.0"
+        },
+        "compile": {
+          "lib/net45/Prism.Wpf.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Prism.Wpf.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "Unity/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Practices.Unity.Configuration.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Practices.Unity.Configuration.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.dll": {}
+        }
+      },
+      "KYV.EA.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "Prism.Core": "6.2.0",
+          "Prism.Unity": "6.2.0",
+          "Prism.Wpf": "6.2.0",
+          "Unity": "4.0.1"
+        },
+        "compile": {
+          "bin/placeholder/KYV.EA.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KYV.EA.Infrastructure.dll": {}
+        }
+      },
+      "KYV.EA.Input/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "KYV.EA.Infrastructure": "1.0.0",
+          "Prism.Core": "6.2.0",
+          "Prism.Unity": "6.2.0",
+          "Prism.Wpf": "6.2.0",
+          "Unity": "4.0.1"
+        },
+        "compile": {
+          "bin/placeholder/KYV.EA.Input.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KYV.EA.Input.dll": {}
+        }
+      },
+      "KYV.EA.Output1/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "KYV.EA.Infrastructure": "1.0.0",
+          "Prism.Core": "6.2.0",
+          "Prism.Unity": "6.2.0",
+          "Prism.Wpf": "6.2.0",
+          "Unity": "4.0.1"
+        },
+        "compile": {
+          "bin/placeholder/KYV.EA.Output1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KYV.EA.Output1.dll": {}
+        }
+      },
+      "KYV.EA.Output2/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0",
+          "KYV.EA.Infrastructure": "1.0.0",
+          "Prism.Core": "6.2.0",
+          "Prism.Unity": "6.2.0",
+          "Prism.Wpf": "6.2.0",
+          "Unity": "4.0.1"
+        },
+        "compile": {
+          "bin/placeholder/KYV.EA.Output2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KYV.EA.Output2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommonServiceLocator/1.3.0": {
+      "sha512": "fbjO0SNwbOFPdwVfyqv+B7gIJ2CVBOFPKqn1mDDECK7KER8jFaOdcvroFYoAHa0ktPbxi5s+15qOLnA96f8GSA==",
+      "type": "package",
+      "path": "commonservicelocator/1.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "commonservicelocator.1.3.0.nupkg.sha512",
+        "commonservicelocator.nuspec",
+        "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.XML",
+        "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll",
+        "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.pdb"
+      ]
+    },
+    "Prism.Core/6.2.0": {
+      "sha512": "jWJRmjvR/bJqVyLr3T9hKToyV6X0Q2DONtyfa8ZjHJwlkD/SF3YJM+z8xSdqQl8uPfLOmgBG6Xm4lPk69P5o0g==",
+      "type": "package",
+      "path": "prism.core/6.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Prism.dll",
+        "lib/MonoAndroid10/Prism.xml",
+        "lib/MonoTouch10/Prism.dll",
+        "lib/MonoTouch10/Prism.xml",
+        "lib/Xamarin.iOS10/Prism.dll",
+        "lib/Xamarin.iOS10/Prism.xml",
+        "lib/net45/Prism.dll",
+        "lib/net45/Prism.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Prism.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Prism.xml",
+        "lib/wp8/Prism.dll",
+        "lib/wp8/Prism.xml",
+        "lib/wp81/Prism.dll",
+        "lib/wp81/Prism.xml",
+        "lib/wpa81/Prism.dll",
+        "lib/wpa81/Prism.xml",
+        "prism.core.6.2.0.nupkg.sha512",
+        "prism.core.nuspec"
+      ]
+    },
+    "Prism.Unity/6.2.0": {
+      "sha512": "05bY5a5KX00N+IhzICMzDpBs0c/o3ubL4jkXxiF8RtYMCXmtEeUzz6pjLnA+G91/Jt2ssgGk2JDJyUB2JaJlGw==",
+      "type": "package",
+      "path": "prism.unity/6.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Prism.Unity.Wpf.dll",
+        "lib/net45/Prism.Unity.Wpf.xml",
+        "lib/uap10.0/Prism.Unity.Windows.dll",
+        "lib/uap10.0/Prism.Unity.Windows.pri",
+        "lib/uap10.0/Prism.Unity.Windows.xml",
+        "prism.unity.6.2.0.nupkg.sha512",
+        "prism.unity.nuspec"
+      ]
+    },
+    "Prism.Wpf/6.2.0": {
+      "sha512": "tGFMNKPzP37dA1nl2iLPXXZxrfNR8g7ZaglqUzcZFlCZ1nb2FA/Io86V8V6QunTJSlLz6YDfMl83KZLdhsnkig==",
+      "type": "package",
+      "path": "prism.wpf/6.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Prism.Wpf.dll",
+        "lib/net45/Prism.Wpf.xml",
+        "lib/net45/System.Windows.Interactivity.dll",
+        "prism.wpf.6.2.0.nupkg.sha512",
+        "prism.wpf.nuspec"
+      ]
+    },
+    "Unity/4.0.1": {
+      "sha512": "FQxLlryE47Y5xY7wJfToUrwtyLsgNJK0jK6sPfNC3YUsjzSX7ILXLA4EX8zVxFPOaIMTJBXRIKrnQ/lsECLufg==",
+      "type": "package",
+      "path": "unity/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "UnityConfiguration30.xsd",
+        "lib/net45/Microsoft.Practices.Unity.Configuration.XML",
+        "lib/net45/Microsoft.Practices.Unity.Configuration.dll",
+        "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.XML",
+        "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll",
+        "lib/net45/Microsoft.Practices.Unity.dll",
+        "lib/net45/Microsoft.Practices.Unity.xml",
+        "lib/portable-net45+wp80+win8+wpa81+MonoAndroid10+MonoTouch10/Microsoft.Practices.Unity.dll",
+        "lib/portable-net45+wp80+win8+wpa81+MonoAndroid10+MonoTouch10/Microsoft.Practices.Unity.xml",
+        "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.XML",
+        "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.dll",
+        "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.pri",
+        "lib/win8/Microsoft.Practices.Unity.dll",
+        "lib/win8/Microsoft.Practices.Unity.xml",
+        "lib/wp80/Microsoft.Practices.Unity.RegistrationByConvention.XML",
+        "lib/wp80/Microsoft.Practices.Unity.RegistrationByConvention.dll",
+        "lib/wp80/Microsoft.Practices.Unity.dll",
+        "lib/wp80/Microsoft.Practices.Unity.xml",
+        "unity.4.0.1.nupkg.sha512",
+        "unity.nuspec"
+      ]
+    },
+    "KYV.EA.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../KYV.EA.Infrastructure/KYV.EA.Infrastructure.csproj",
+      "msbuildProject": "../KYV.EA.Infrastructure/KYV.EA.Infrastructure.csproj"
+    },
+    "KYV.EA.Input/1.0.0": {
+      "type": "project",
+      "path": "../KYV.EA.Input/KYV.EA.Input.csproj",
+      "msbuildProject": "../KYV.EA.Input/KYV.EA.Input.csproj"
+    },
+    "KYV.EA.Output1/1.0.0": {
+      "type": "project",
+      "path": "../KYV.EA.Output1/KYV.EA.Output1.csproj",
+      "msbuildProject": "../KYV.EA.Output1/KYV.EA.Output1.csproj"
+    },
+    "KYV.EA.Output2/1.0.0": {
+      "type": "project",
+      "path": "../KYV.EA.Output2/KYV.EA.Output2.csproj",
+      "msbuildProject": "../KYV.EA.Output2/KYV.EA.Output2.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6": [
+      "CommonServiceLocator >= 1.3.0",
+      "KYV.EA.Input >= 1.0.0",
+      "KYV.EA.Output1 >= 1.0.0",
+      "KYV.EA.Output2 >= 1.0.0",
+      "Prism.Core >= 6.2.0",
+      "Prism.Unity >= 6.2.0",
+      "Prism.Wpf >= 6.2.0",
+      "Unity >= 4.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\namlp\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\namlp\\Desktop\\Test\\KYV.EA\\KYV.EASampleApp\\KYV.EASampleApp.csproj",
+      "projectName": "KYV.EASampleApp",
+      "projectPath": "C:\\Users\\namlp\\Desktop\\Test\\KYV.EA\\KYV.EASampleApp\\KYV.EASampleApp.csproj",
+      "packagesPath": "C:\\Users\\namlp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\namlp\\Desktop\\Test\\KYV.EA\\KYV.EASampleApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\namlp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net46"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net46": {
+          "projectReferences": {
+            "C:\\Users\\namlp\\Desktop\\Test\\KYV.EA\\KYV.EA.Input\\KYV.EA.Input.csproj": {
+              "projectPath": "C:\\Users\\namlp\\Desktop\\Test\\KYV.EA\\KYV.EA.Input\\KYV.EA.Input.csproj"
+            },
+            "C:\\Users\\namlp\\Desktop\\Test\\KYV.EA\\KYV.EA.Output1\\KYV.EA.Output1.csproj": {
+              "projectPath": "C:\\Users\\namlp\\Desktop\\Test\\KYV.EA\\KYV.EA.Output1\\KYV.EA.Output1.csproj"
+            },
+            "C:\\Users\\namlp\\Desktop\\Test\\KYV.EA\\KYV.EA.Output2\\KYV.EA.Output2.csproj": {
+              "projectPath": "C:\\Users\\namlp\\Desktop\\Test\\KYV.EA\\KYV.EA.Output2\\KYV.EA.Output2.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net46": {
+        "dependencies": {
+          "CommonServiceLocator": {
+            "target": "Package",
+            "version": "[1.3.0, )"
+          },
+          "Prism.Core": {
+            "target": "Package",
+            "version": "[6.2.0, )"
+          },
+          "Prism.Unity": {
+            "target": "Package",
+            "version": "[6.2.0, )"
+          },
+          "Prism.Wpf": {
+            "target": "Package",
+            "version": "[6.2.0, )"
+          },
+          "Unity": {
+            "target": "Package",
+            "version": "[4.0.1, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

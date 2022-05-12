@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZAQt5QzBpzI/a2vSpZkQ4dpOvfFy1zeZdJfty9tsfwJrjNSIgWKVQRiaJebRp0Xol+iaJIHfW6D16OssNNBRow==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\namlp\\Desktop\\Test\\KYV.EA\\KYV.EA.Input\\KYV.EA.Input.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\namlp\\.nuget\\packages\\commonservicelocator\\1.3.0\\commonservicelocator.1.3.0.nupkg.sha512",
+    "C:\\Users\\namlp\\.nuget\\packages\\prism.core\\6.2.0\\prism.core.6.2.0.nupkg.sha512",
+    "C:\\Users\\namlp\\.nuget\\packages\\prism.unity\\6.2.0\\prism.unity.6.2.0.nupkg.sha512",
+    "C:\\Users\\namlp\\.nuget\\packages\\prism.wpf\\6.2.0\\prism.wpf.6.2.0.nupkg.sha512",
+    "C:\\Users\\namlp\\.nuget\\packages\\unity\\4.0.1\\unity.4.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

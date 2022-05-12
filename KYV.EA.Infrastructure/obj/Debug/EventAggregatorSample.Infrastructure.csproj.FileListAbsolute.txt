@@ -1,0 +1,17 @@
+D:\documents\reviewstation\MySamples\KYV.EA\EventAggregatorSample.Infrastructure\bin\Debug\EventAggregatorSample.Infrastructure.dll.config
+D:\documents\reviewstation\MySamples\KYV.EA\EventAggregatorSample.Infrastructure\bin\Debug\EventAggregatorSample.Infrastructure.dll
+D:\documents\reviewstation\MySamples\KYV.EA\EventAggregatorSample.Infrastructure\bin\Debug\EventAggregatorSample.Infrastructure.pdb
+D:\documents\reviewstation\MySamples\KYV.EA\EventAggregatorSample.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\documents\reviewstation\MySamples\KYV.EA\EventAggregatorSample.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\documents\reviewstation\MySamples\KYV.EA\EventAggregatorSample.Infrastructure\bin\Debug\Prism.dll
+D:\documents\reviewstation\MySamples\KYV.EA\EventAggregatorSample.Infrastructure\bin\Debug\Prism.Unity.Wpf.dll
+D:\documents\reviewstation\MySamples\KYV.EA\EventAggregatorSample.Infrastructure\bin\Debug\Prism.Wpf.dll
+D:\documents\reviewstation\MySamples\KYV.EA\EventAggregatorSample.Infrastructure\bin\Debug\System.Windows.Interactivity.dll
+D:\documents\reviewstation\MySamples\KYV.EA\EventAggregatorSample.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\documents\reviewstation\MySamples\KYV.EA\EventAggregatorSample.Infrastructure\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\documents\reviewstation\MySamples\KYV.EA\EventAggregatorSample.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+D:\documents\reviewstation\MySamples\KYV.EA\EventAggregatorSample.Infrastructure\obj\Debug\EventAggregatorSample.Infrastructure.Properties.Resources.resources
+D:\documents\reviewstation\MySamples\KYV.EA\EventAggregatorSample.Infrastructure\obj\Debug\EventAggregatorSample.Infrastructure.csproj.GenerateResource.cache
+D:\documents\reviewstation\MySamples\KYV.EA\EventAggregatorSample.Infrastructure\obj\Debug\EventAggregatorSample.Infrastructure.csproj.CopyComplete
+D:\documents\reviewstation\MySamples\KYV.EA\EventAggregatorSample.Infrastructure\obj\Debug\EventAggregatorSample.Infrastructure.dll
+D:\documents\reviewstation\MySamples\KYV.EA\EventAggregatorSample.Infrastructure\obj\Debug\EventAggregatorSample.Infrastructure.pdb
